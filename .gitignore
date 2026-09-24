@@ -216,3 +216,27 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+# Large AI model files
+*.rknn
+*.rkllm
+*.onnx
+*.pth
+*.pt
+*.safetensors
+
+# Build files
+build/
+bin/
+*.o
+*.a
+
+# Logs and temporary files
+*.log
+tmp/
+temp/
+
+# IDE
+.vscode/
+.idea/
